@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(get\ \(1\).jfif);
+}
+.img{
+    background-size: 0;
+}
+ul{
+   display: flex; 
+   list-style: none;
+   gap: 40px;
+   list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li a img{
+    width: 24px;
+    height: 24px;
+}
