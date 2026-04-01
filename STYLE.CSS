@@ -3,7 +3,12 @@
     margin: 0;
 }
 body{
-    background-image: url(get\ \(1\).jfif);
+    background-image: url(get.jfif);
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
 }
 .img{
     background-size: 0;
@@ -12,7 +17,6 @@ ul{
    display: flex; 
    list-style: none;
    gap: 40px;
-   list-style: none;
 }
 header{
     display: flex;
@@ -30,4 +34,6 @@ li a{
 li a img{
     width: 24px;
     height: 24px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(140%) hue-rotate(8deg) brightness(108%) contrast(101%);
+    text-align: center;
 }
